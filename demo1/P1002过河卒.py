@@ -9,7 +9,7 @@ fy = [0, 1, 2, 2, 1, -1, -2, -2, -1]
 f = numpy.zeros(shape=(40, 40))
 s = numpy.zeros(shape=(40, 40))
 # print(a)
-c = input().split()
+c = input('b点位置,m点位置:').split()
 bx, by, mx, my = eval(c[0]), eval(c[1]), eval(c[2]), eval(c[3])
 # 坐标+2以防止越界
 bx += 2
